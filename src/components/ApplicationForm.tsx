@@ -40,9 +40,9 @@ export default function ApplicationForm({ isOpen, onClose, courseSlug, courseTit
           experience_level: formData.experienceLevel,
           reason: formData.whyJoin,
           course_slug: courseSlug,
-          githubUrl: formData.githubUrl,         
-          hasLaptop: formData.hasLaptop,         
-          agreesToCommitment: formData.agreesToCommitment,
+          github_url: formData.githubUrl,         
+          has_laptop: formData.hasLaptop,         
+          agrees_to_commitment: formData.agreesToCommitment,
           status: 'pending',
         });
 
