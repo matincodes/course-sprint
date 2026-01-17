@@ -35,9 +35,9 @@ export const courses: Record<string, CourseData> = {
     slug: 'backend-sprint',
     title: 'Junior Backend Developer Sprint',
     subtitle: '12 Weeks. Real Projects. Job Ready.',
-    price: 'N45,000',
-    monthlyPrice: 'N15,000',
-    startDate: 'Feb 14, 2026',
+    price: 'N60,000',
+    monthlyPrice: 'N20,000',
+    startDate: 'Feb 21, 2026',
     duration: '12 Weeks',
     maxStudents: 20,
     whyThisCourse: [
@@ -180,10 +180,10 @@ export const courses: Record<string, CourseData> = {
       },
     ],
     instructor: {
-      name: 'ThynkCity Founders',
+      name: 'Thynkcity Developers',
       title: 'Lead Instructors',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=400',
-      bio: 'Industry veterans with 10+ years of experience building fintech solutions for African markets.',
+      bio: 'Industry veterans with 5+ years of experience building fintech solutions for African markets.',
     },
     outcomes: [
       'Build and deploy a production-ready Digital Wallet API',

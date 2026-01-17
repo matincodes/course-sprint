@@ -63,7 +63,7 @@ export default function ApplicationSuccess() {
                 <div>
                   <p className="text-[#F8FAFC] font-medium">Start Learning</p>
                   <p className="text-[#F8FAFC]/60 text-sm">
-                    Join the cohort on February 14, 2026 and begin your journey
+                    Join the cohort on February 21, 2026 and begin your journey
                   </p>
                 </div>
               </li>
@@ -72,7 +72,7 @@ export default function ApplicationSuccess() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:admin@thynkcity.com"
+              href="mailto:build@thynkcity.com"
               className="inline-flex items-center justify-center gap-2 bg-[#0e1525] border border-[#aa772d]/30 hover:border-[#aa772d] text-[#F8FAFC] font-medium px-6 py-3 rounded-lg transition-all"
             >
               <Mail className="w-5 h-5" />
@@ -93,14 +93,14 @@ export default function ApplicationSuccess() {
             </p>
             <div className="flex items-center justify-center gap-6">
               <a
-                href="mailto:admin@thynkcity.com"
+                href="mailto:build@thynkcity.com"
                 className="text-[#aa772d] hover:text-[#aa772d]/80 transition-colors text-sm"
               >
-                admin@thynkcity.com
+                build@thynkcity.com
               </a>
               <span className="text-[#F8FAFC]/30">|</span>
               <a
-                href="https://wa.me/2348000000000"
+                href="https://wa.me/2349025320287"
                 className="text-[#aa772d] hover:text-[#aa772d]/80 transition-colors text-sm flex items-center gap-1"
               >
                 <MessageCircle className="w-4 h-4" />

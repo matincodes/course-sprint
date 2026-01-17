@@ -35,8 +35,9 @@ export default function ApplicationForm({ isOpen, onClose, courseSlug, courseTit
           email: formData.email,
           whatsapp_number: formData.whatsappNumber,
           experience_level: formData.experienceLevel,
-          why_join: formData.whyJoin,
+          reason: formData.whyJoin,
           course_slug: courseSlug,
+          status: 'pending',
         });
 
       if (submitError) throw submitError;
@@ -57,7 +58,7 @@ export default function ApplicationForm({ isOpen, onClose, courseSlug, courseTit
 
   return (
     <div className="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 overflow-y-auto">
-      <div className="bg-[#1a2332] border border-[#aa772d]/30 rounded-lg max-w-2xl w-full my-8">
+      <div className="bg-[#1a2332] border border-[#aa772d]/30 rounded-lg max-w-2xl w-full my-8 mt-32 shadow-lg">
         <div className="flex items-center justify-between p-6 border-b border-[#aa772d]/20">
           <div>
             <h2 className="font-mono text-2xl font-bold text-[#F8FAFC]">
