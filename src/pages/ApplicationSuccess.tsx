@@ -15,7 +15,7 @@ export default function ApplicationSuccess() {
 
           <p className="text-[#F8FAFC]/70 text-lg mb-8 leading-relaxed">
             Thank you for applying to ThynkCity's cohort program. We've received your application
-            and our team will review it within 2-3 business days.
+            and our team will review it and revert back to you.
           </p>
 
           <div className="bg-[#0e1525] border border-[#aa772d]/20 rounded-lg p-6 mb-8 text-left">
